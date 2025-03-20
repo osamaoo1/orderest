@@ -9,7 +9,7 @@ const menuItems = [
 const menuDiv = document.getElementById("menu");
 menuItems.forEach((item, index) => {
     const div = document.createElement("div");
-    div.innerHTML = `<label>${item.name} - ${item.price} AED</label> 
+    div.innerHTML = `<label>${item.name} - ${item.price} SAR</label> 
                      <input type="number" id="item${index}" min="0" value="0" onchange="updateTotal()">`;
     menuDiv.appendChild(div);
 });
