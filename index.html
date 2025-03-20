@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Taking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Order Taking System</h2>
+    <label for="table">Table Number:</label>
+    <input type="number" id="table" min="1" placeholder="Enter Table Number">
+    
+    <h3>Menu</h3>
+    <div id="menu"></div>
+
+    <h3>Total: <span id="total">0.00</span> AED</h3>
+    <button onclick="clearOrder()">Clear Order</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
