@@ -1,7 +1,6 @@
 const menuItems = [
     { name: "Kebab", price: 50 },
     { name: "Shawarma", price: 25 },
-    { name: "Falafel", price: 15 },
     { name: "Baklava", price: 20 },
     { name: "Turkish Tea", price: 10 }
 ];
